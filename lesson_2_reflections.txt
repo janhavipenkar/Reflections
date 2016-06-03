@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+On initializing a repository , an empty git repository is created. If the repository already exists, it is reinitialized.It keeps track of all the changes that you do in the files of your project. Every time you make changes to files of a project, you can push those changes to a repository. Other developers can pull your changes from the repository and continue to work with the improvements that you added to the project files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The Git directory is where Git stores the metadata and object database for your project. This is the most important part of Git, and it is what is copied when you clone a repository from another computer.
+The working directory is a single checkout of one version of the project. These files are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.
+The staging area is a file, generally contained in your Git directory, that stores information about what will go into your next commit. It’s sometimes referred to as the “index”, but it’s also common to refer to it as the staging area.
+The basic Git workflow goes something like this:
+1.You modify files in your working directory.
+2.You stage the files, adding snapshots of them to your staging area.
+3.You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
