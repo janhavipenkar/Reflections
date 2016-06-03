@@ -1,0 +1,22 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Diff clearly showed the lines of the two files which were different. That was good enough to know what chaned in the new version of file.
+
+How could having easy access to the entire history of a file make you a more efficient programer in the long term?
+If some changes made in an already working file lead to some undesirable outcome, moving back to a previous working version will save the day. From there on further changes can be made to accomplish more results but if those fail there always exist an option to move back to a previous working vesrion.
+
+What do you thinhk are the pros and cons of manually chosing when to create a commit, like you do in Git, vs having versions automatically save, like Google docs does?
+Manually choosing when to commit, may result into a compact history of commits if the user makes a right judgement o the size of the code for a commit. Whereas an auto commit would have a bigger history and traversing through it could be a litle dificult.
+With manual operation, the commits could be very logical as in one commit per one bug fix or one commi per a bunch of typos and so on and backtracking such commits would be easier. On the other had the auto opertion will most of the time do a commit of an complete piece of code wchich logically may not make any sense.
+
+Why do you think some version control systems, like Git, allow saving multpile files in one commit, while others, like Goggle Docs, treat each file seperately?
+Probably becuase a particulr fix could lie acorss multiple files and to make the commit logical ,it is necessary to alow such a multi file commit.
+
+How can you use the commands git log and git diff to view the history of files?
+git log  -> shows the commit logs
+git diff -> shows chnages between two files on a disk.
+
+How might using version control make you more confident to make chnages that could beak something?
+Vesrsion control lets you go back to previous versions of the code. So in case something gets broken , there always exists a possibility to go back to the previous vesrsions of the code and get the working code.
+
+Now that you have your workspace set up , what do you want to try using Git for?
+ I want to try using Git for writing Android applicattion.
