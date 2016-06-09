@@ -9,3 +9,6 @@ The basic Git workflow goes something like this:
 1.You modify files in your working directory.
 2.You stage the files, adding snapshots of them to your staging area.
 3.You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Suppose ,there alrday exists  a working piece code of a particular application which certain users have been using. At this stage , someone feels to add a nice to have feature to the applicatio but not sure how long will take to implement ad also not sure if that new change will break the application. In this scenario , it makes sense to keep the working code intact and make an new branch for implemention the new feature. If it works well it can be merged with the main code.
