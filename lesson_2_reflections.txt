@@ -12,3 +12,6 @@ The basic Git workflow goes something like this:
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Suppose ,there alrday exists  a working piece code of a particular application which certain users have been using. At this stage , someone feels to add a nice to have feature to the applicatio but not sure how long will take to implement ad also not sure if that new change will break the application. In this scenario , it makes sense to keep the working code intact and make an new branch for implemention the new feature. If it works well it can be merged with the main code.
+
+How do the diagrams help you visualize the branch structure?
+With the help of diagrams a pictorialrepresentaion of the branch strusture can be mde starting from the original to the most recent commit. That includes all the branches like the master and other branches being created in the course of action. With the pictorial repesentation it is easier to knoe the parent of all the commits and reachability can be established.
