@@ -1,0 +1,3 @@
+When would you want to make a remote repository rather than keeping all your work local?
+Firstly, ff your work is only on your computer it is vulnerable to loss. it is always safe to keep work on remote repo.
+Secondly , by making it oublic, you can share your work with others and they can also contribute to it.
