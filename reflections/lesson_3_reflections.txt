@@ -1,3 +1,6 @@
 When would you want to make a remote repository rather than keeping all your work local?
 Firstly, ff your work is only on your computer it is vulnerable to loss. it is always safe to keep work on remote repo.
 Secondly , by making it oublic, you can share your work with others and they can also contribute to it.
+
+Why might you want to always pull changes manually rather than having it automatically stay up to date with repository?
+If there are any local uncommited changes while repository merges chnages automatically , it could produce some undesirable outcome. So before the pull operation takes place, all the local chages should be in working order, timing of which can be controlled only if pulling is done manually.
