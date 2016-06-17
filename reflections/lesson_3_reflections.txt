@@ -1,6 +1,11 @@
 When would you want to make a remote repository rather than keeping all your work local?
 Firstly, ff your work is only on your computer it is vulnerable to loss. it is always safe to keep work on remote repo.
-Secondly , by making it oublic, you can share your work with others and they can also contribute to it.
+Secondly , by making it public, you can share your work with others and they can also contribute to it.
 
 Why might you want to always pull changes manually rather than having it automatically stay up to date with repository?
 If there are any local uncommited changes while repository merges chnages automatically , it could produce some undesirable outcome. So before the pull operation takes place, all the local chages should be in working order, timing of which can be controlled only if pulling is done manually.
+
+Describe the differences between forks,clones and branches. When would you use one instead of another?
+A clone is where you have proper duplication, and separation between, two (possibly different) versions of a repository. When one repo is amended, the new content must be actively copied to the other repo using a push command. And changes in the other repo fetched.
+When you fork a repo, on a server, there is no need for duplication of content because both repos will use the same [fixed object] content from that same server. The 'trick' is in managing the different user viewpoints so that each user believes they have a full personal copy of the repo. Pushes and fetches between forks is simply updates the user's pointers.
+A branch is something that is within a repository. Conceptually, it represents a thread of development. You usually have a master branch, but you may also have a branch where you are working on some feature xyz, and another one to fix bug abc. When you have checked out a branch, any commits you make will stay on that branch and not be shared with other branches until you merge them with or rebase them onto the branch in question.
