@@ -12,3 +12,6 @@ A branch is something that is within a repository. Conceptually, it represents a
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Sometimes ,instead of git pull in which you bring a local branch up-to-date with its remote version, while also updating your other remote-tracking branches, it is safer to use git fetch never changes any of your own local branches under refs/heads, and is safe to do without changing your working copy or current changes w/o messing them up.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Using pull and push requests.
