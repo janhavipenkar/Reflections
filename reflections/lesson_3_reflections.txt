@@ -15,3 +15,7 @@ Sometimes ,instead of git pull in which you bring a local branch up-to-date with
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Using pull and push requests.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Sometimes, we are note sure if the chages we are trying to introduce, will actually work and and right to bring into master. So it is a safe praticeto make changes in a different branch, push this branch onto github where it can be reviewd and confirmed/discarded by others. 
+This will make sure that the master always remains up to dat and new changes are brought in with consens.
